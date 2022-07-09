@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/weather/static/css/main.34e2ed9b.css",
+    "main.js": "/weather/static/js/main.8f17baaf.js",
+    "static/media/Vazirmatn-FD-NL-SemiBold.woff2": "/weather/static/media/Vazirmatn-FD-NL-SemiBold.f9d27b0705132232145b.woff2",
+    "static/media/Vazirmatn-FD-NL-ExtraBold.woff2": "/weather/static/media/Vazirmatn-FD-NL-ExtraBold.c9b553086e082fe65cdc.woff2",
+    "static/media/Vazirmatn-FD-NL-Bold.woff2": "/weather/static/media/Vazirmatn-FD-NL-Bold.f4e93abfe87227e7c339.woff2",
+    "static/media/Vazirmatn-FD-NL-ExtraLight.woff2": "/weather/static/media/Vazirmatn-FD-NL-ExtraLight.c1e74fc70aeb9e155e81.woff2",
+    "static/media/Vazirmatn-FD-NL-Medium.woff2": "/weather/static/media/Vazirmatn-FD-NL-Medium.da6d64b5b68cccb3a6cd.woff2",
+    "static/media/Vazirmatn-FD-NL-Light.woff2": "/weather/static/media/Vazirmatn-FD-NL-Light.c3d658443e93ca91b366.woff2",
+    "static/media/Vazirmatn-FD-NL-Black.woff2": "/weather/static/media/Vazirmatn-FD-NL-Black.c54264dd0faabf619ebf.woff2",
+    "static/media/Vazirmatn-FD-NL-Thin.woff2": "/weather/static/media/Vazirmatn-FD-NL-Thin.9508a91d9bdc38bb3f80.woff2",
+    "static/media/Vazirmatn-FD-NL-Regular.woff2": "/weather/static/media/Vazirmatn-FD-NL-Regular.9a72117b0ffd654822a6.woff2",
+    "index.html": "/weather/index.html",
+    "main.34e2ed9b.css.map": "/weather/static/css/main.34e2ed9b.css.map",
+    "main.8f17baaf.js.map": "/weather/static/js/main.8f17baaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34e2ed9b.css",
+    "static/js/main.8f17baaf.js"
+  ]
+}
