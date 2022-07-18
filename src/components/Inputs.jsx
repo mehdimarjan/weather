@@ -16,9 +16,9 @@ function Inputs({ setQuery, units, setUnits }) {
 
   const handleLocationClick = () => {
     if (navigator.geolocation) {
-      toast.info("Fetching users location.");
+      toast.info("درحال دریافت موقعیت مکانی کاربر.");
       navigator.geolocation.getCurrentPosition((position) => {
-        toast.success("Location fetched!");
+        toast.success("موقعیت مکانی دریافت شد.");
         let lat = position.coords.latitude;
         let lon = position.coords.longitude;
         setQuery({
@@ -30,8 +30,8 @@ function Inputs({ setQuery, units, setUnits }) {
   };
 
   return (
-    <div className="flex flex-row justify-center my-6">
-      <div className="flex flex-row w-3/4 items-center justify-center space-x-4">
+    <div className="flex flex-col md:flex-row justify-center my-6">
+      <div className="flex flex-row w-full md:w-3/4 items-center justify-center space-x-4">
         <input
           value={city}
           onChange={(e) => setCity(e.currentTarget.value)}
@@ -51,7 +51,7 @@ function Inputs({ setQuery, units, setUnits }) {
         />
       </div>
 
-      <div className="flex flex-row w-1/4 items-center justify-center">
+      <div className="flex flex-row w-full mt-4 md:mt-0 md:w-1/4 items-center justify-center">
         <button
           name="metric"
           className="text-sm text-white font-light transition ease-out hover:scale-105"

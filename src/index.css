@@ -86,4 +86,9 @@
     font-family: 'Vazirmatn', sans-serif !important;
   }
 
+  div{
+    text-align: right;
+    direction: rtl;
+  }
+
 }
